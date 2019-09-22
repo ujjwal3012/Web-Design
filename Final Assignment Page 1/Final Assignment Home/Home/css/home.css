@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:url(../images/heading5.jpg);
+	background-position: 100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	width: 100%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    animation: fade 8s;
+}
+
+/* Applying Animations */
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+
+  }
+  50%{
+    opacity: 0.9;
+
+  }
+
+  100%{
+    opacity: 1.0;
+  }
+}
+
+
+/* Applying Css */
+
+header {
+    color: white;
+    
+}
+#menubar1 {
+    top: 0;
+    
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+#mainhead{
+    display: flex;
+    justify-content: center;
+    top: 200px;
+    margin-top: -100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+
+    
+
+}
+
+/* Css for Icons, Sub Headings & lists */
+
+#class1 {
+    width: 350px;
+    height: 50px;
+    margin: 50px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: entypo;
+    color: #212121;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    display: block;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.box:hover {
+    color: #fff;
+    transform: scale(1.15);
+    transition: 1s;
+
+}
+
+#facebook:hover {
+    background-color: rgb(59, 89, 152);
+    box-shadow: inset 0 0 0 22px #3A5795;
+    transform: rotate(360deg) scale(1.15);
+    transition: 1s;
+
+}
+
+#twitter:hover {
+    background-color: rgb(85, 172, 238);
+    box-shadow: inset 0 0 0 22px #3A5795;
+    transform: rotate(360deg) scale(1.15);
+    transition: 1s;
+
+}
+
+#google:hover {
+    background-color: rgb(221, 75, 57);
+    box-shadow: inset 0 0 0 22px #3A5795;
+    transform: rotate(360deg) scale(1.15);
+    transition: 1s;
+
+}
+
+#linkedin:hover {
+    background-color: rgb(0, 123, 181);
+    box-shadow: inset 0 0 0 22px #3A5795;
+    transform: rotate(360deg) scale(1.15);
+    transition: 1s;
+
+}
+
+#instagram:hover {
+    background-color: rgb(233, 89, 80);
+    box-shadow: inset 0 0 0 22px #3A5795;
+    transform: rotate(360deg) scale(1.15);
+    transition: 1s;
+
+}
+
+
+h1 {
+	text-align: center;
+	font-family: 'Suez One', serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Philosopher', sans-serif;
+	text-transform:uppercase;
+	font-size: 40px;
+    color: black;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Megrim', cursive;
+	text-transform: capitalize;
+	font-size: 60px;
+}
+.columnleft {
+
+
+    font-family: 'Suez One', serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Philosopher', sans-serif;
+    
+    
+	
+}
+
+
+p {
+	font-style: normal;
+	font-size: 20px;
+	font-family: 'Suez One', serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Philosopher', sans-serif;
+     margin-left: auto;
+     display: flex; 
+     justify-content: center;
+    margin-right: auto;   
+    width: 50%;
+   
+}
+
+h3 {
+	font-family: 'Suez One', serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Philosopher', sans-serif;
+	font-size: 40px;
+	text-align: center;
+    display: flex;
+    justify-content: center;
+    clear: both;
+    width: 100%;
+    padding-top: 300px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:sienna;
+}
+
+#list1l {
+	float:left;
+	clear: both;
+}
+
+h4 {
+	font-family: 'Megrim', cursive;
+	font-size: 40px;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+#copyright-info {
+    font-family: 'Suez One', serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Philosopher', sans-serif;
+    bottom: 10px;
+	position:relative;
+	clear: both;
+	padding: 5px;
+	width: 43%;
+    background-color: black;
+    color: white;
+    transform: rotate(360deg) scale(1.15);
+    transition: 1s;
+
+}
+
+
+

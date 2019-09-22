@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(pic0.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Titillium Web', sans-serif;
+    animation: fade 8s;
+
+}
+
+/* Applying Animation */
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+
+  }
+  50%{
+    opacity: 0.9;
+
+  }
+
+  100%{
+    opacity: 1.0;
+  }
+}
+
+/* Applying Css */
+
+.contact-title{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 2s ease-in-out;
+
+}
+
+
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+    color: black;
+
+}
+
+.contact-title h2{
+	font-size: 32px;
+	line-height: 10px;
+
+}
+
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+
+	
+
+}
+
+
+.form-control{
+    width: 600px;
+    background: #ffffff00;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    border-color: #222;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 10px;
+
+
+}
+
+
+input {
+	height: 45px;
+
+}
+
+form .submit{
+	background:black;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+    opacity: 0.7;
+
+
+}
+
+form .submit:hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+
+/* Css For Footer */
+#copyright-info {
+    
+    bottom: 10px;
+    position:relative;
+    clear: both;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 360px;
+    opacity: 0.7;
+    font-family: 'Titillium Web', sans-serif;
+
+
+}
+
+
+/* CSS For Navigation Bar */
+  #menubar1 {
+    top: 0;
+    
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#list1l {
+  float:left;
+  clear: both;
+  
+}
+
+.active {
+    background-color:sienna;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    align-content: center;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    align-content: center;
+}
+
+
+
+
+
+
+

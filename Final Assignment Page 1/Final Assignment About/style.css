@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/* CSS Document */
+body{
+  margin: 0;
+  padding: 0;
+  background: url(bg2.jpg) no-repeat;
+  background-size: cover;
+  animation: fade 8s;
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+/* Applying Animation */
+@keyframes fade{
+  0%{
+    opacity: 0;
+
+  }
+  50%{
+    opacity: 0.9;
+
+  }
+
+  100%{
+    opacity: 1.0;
+  }
+}
+
+/* Applying CSS To Contents */
+
+
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  text-align: center;
+  margin-right: 600px;
+  float: right;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5%;
+
+
+}
+
+/* Css For Image In The Box */
+.box-img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.box p{
+  text-align: justify;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.box li{
+  display: inline-block;
+  margin-left: 70px;
+  margin-right: 70px;
+  list-style: none;
+
+}
+
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+  
+
+}
+
+.box li a:hover{
+  color: #b9b9b9;
+}
+
+
+#copyright-info {
+    
+    bottom: 10px;
+    position:relative;
+    clear: both;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 430px;
+    font-family: 'Titillium Web', sans-serif;
+    
+
+
+  }
+
+
+#menubar1 {
+    top: 0;
+    
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#list1l {
+  float:left;
+  clear: both;
+  
+}
+
+.active {
+    background-color:sienna;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    align-content: center;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    align-content: center;
+}
+
+
+
+
+
+

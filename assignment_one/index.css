@@ -1,0 +1,121 @@
+@charset ="UTF-8";
+/*CSS */
+
+
+
+
+* {
+	margin: 0
+	padding:0
+}
+
+header {
+	height: 400px;
+	color: black
+}
+
+
+
+h1 {
+	text-align:center;
+	color:red;
+	font-size: 100px;
+	line-height: 400px;
+	text-decoration: underline;
+	}
+
+
+
+h2 {
+	font-size: 25px;
+	color: red;
+	text-align: right;
+	text-transform: uppercase;
+	text-decoration: underline;
+		}
+
+
+h3 {
+	font-size: 25px;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: underline;
+	height: 60px;
+	width: 80px;
+	background-image: url('Silver.jpg')
+		}
+
+
+h4 {
+	font-size: 25px;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: underline;
+	height: 60px;
+	width: 80px;
+	background-image: url('Silver.jpg')
+		}
+
+
+h5 {
+	font-size: 25px;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: underline;
+	height: 60px;
+	width: 80px;
+	background-image: url('Silver.jpg') 
+
+		}
+
+
+p { 
+	color: blue;
+	line-height: 30px;
+	font-size: 20px;
+	width: 700px
+	background-color: blue;
+	padding: 20px;
+	margin: 0 auto;
+	border: 6px solid black;
+		 }
+
+
+
+p { 
+	color: blue;
+	line-height: 30px;
+	font-size: 20px;
+	width: 700px
+	background-color: blue;
+	padding: 20px;
+	margin: 0 auto;
+	border: 6px solid black;
+		 }
+
+
+
+p { 
+	color: blue;
+	line-height: 30px;
+	font-size: 20px;
+	width: 700px
+	background-color: blue;
+	padding: 20px;
+	margin: 0 auto;
+	border: 6px solid black;
+		 }
+
+
+ul {
+ 	text-align: center;
+ 	padding: 25px;
+ 	list-style: none;
+ 	color: black;
+ 	display: block;
+ 	font-size: 20px;
+
+ }
